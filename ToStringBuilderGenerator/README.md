@@ -1,0 +1,3 @@
+ToStringBuilderGenerator
+========================
+リフレクションで`ToString`するアレ。
