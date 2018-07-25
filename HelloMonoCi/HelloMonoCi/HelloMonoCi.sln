@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMonoCi", "HelloMonoCi\HelloMonoCi.csproj", "{CEFF9932-9C84-4CF8-88CF-1374D3C372AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMonoCi.Test", "HelloMonoCi.Test\HelloMonoCi.Test.csproj", "{4D9E9F80-4096-47F8-B44E-66DF271A1F5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEFF9932-9C84-4CF8-88CF-1374D3C372AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFF9932-9C84-4CF8-88CF-1374D3C372AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFF9932-9C84-4CF8-88CF-1374D3C372AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFF9932-9C84-4CF8-88CF-1374D3C372AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D9E9F80-4096-47F8-B44E-66DF271A1F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9E9F80-4096-47F8-B44E-66DF271A1F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9E9F80-4096-47F8-B44E-66DF271A1F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9E9F80-4096-47F8-B44E-66DF271A1F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
