@@ -1,3 +1,1 @@
-Nullable
-========
-拡張メソッドを乱用してnull条件演算子っぽいのを実装したアレ。
+[VB13以前でもNull条件演算子を使いたい](https://jyuch.hatenablog.com/entry/2016/05/19/232520)
