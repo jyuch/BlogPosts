@@ -1,0 +1,8 @@
+kind: pipeline
+name: default
+
+steps:
+- name: classlibrary1
+  image: microsoft/dotnet:2.1-sdk
+  commands:
+  - dotnet test

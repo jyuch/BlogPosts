@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+  server:
+    image: drone/drone:1.0.0-rc.1
+    environment:
+      - DRONE_GIT_ALWAYS_AUTH=false
+      - DRONE_GITEA_SERVER=http://gitea.opabinia.co.jp/
+      - DRONE_RPC_SECRET=2039906835c92213b78cce47d38be1e9
+      - DRONE_SERVER_HOST=drone.opabinia.co.jp
+      - DRONE_SERVER_PROTO=http
+      - DRONE_TLS_AUTOCERT=false
+    restart: always
+    volumes:
+      - ./drone:/data 
+    ports:
+      - "80:80"
+      - "443:443"

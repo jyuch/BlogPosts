@@ -1,0 +1,13 @@
+version: '3'
+services:
+  mssql:
+    image: 'microsoft/mssql-server-linux:2017-CU12'
+    volumes:
+      - ./data:/var/opt/mssql/data
+    ports:
+      - '1433:1433'
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=mssqllinux@1
+      - MSSQL_LCID=1041
+      - MSSQL_COLLATION=Japanese_CI_AS
