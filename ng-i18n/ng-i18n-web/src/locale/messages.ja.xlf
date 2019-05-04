@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="f09a319ee53bb5455fd3b200d9342fc8dab9516d" datatype="html">
+        <source>Hello, this is English message!!</source>
+        <target>こんにちは、これは日本語のメッセージです！！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hoge/hoge.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/fuga/fuga.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f1e9e1e775ef2e89a570bb14ca07fff0d90c48c" datatype="html">
+        <source>
+  Now, you are in hoge.
+</source>
+        <target>今はhogeにいます。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hoge/hoge.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e62f02f00314fe48fa3f80249573b92a7c0e7d81" datatype="html">
+        <source>Go to fuga</source>
+        <target>fugaに遷移します。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hoge/hoge.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e29036c74b8fd17aa065f5bccb27509f62df33f6" datatype="html">
+        <source>
+  Now, you are in fuga.
+</source>
+        <target>今はfugaにいます。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/fuga/fuga.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="558b51bc18a125d476e0cf17af6c933ae4775b68" datatype="html">
+        <source>Go to hoge</source>
+        <target>hogeに遷移します。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/fuga/fuga.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="107fefed6a544408f264ef993c4526a5d7731fba" datatype="html">
+        <source>Count: <x id="INTERPOLATION" equiv-text="{{value}}"/></source>
+        <target>カウント: <x id="INTERPOLATION" equiv-text="{{value}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/counter/counter.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
