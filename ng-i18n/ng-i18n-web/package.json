@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.json --open",
     "startja": "ng serve --proxy-config proxy.conf.json --open --configuration=ja",
-    "build": "ng build --prod",
-    "buildja": "ng build --configuration=ja --prod",
+    "build": "ng build --prod --base-href=/app/en/",
+    "buildja": "ng build --configuration=ja --prod --base-href=/app/ja/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
