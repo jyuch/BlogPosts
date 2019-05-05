@@ -1,0 +1,1 @@
+[Angularでもいい感じに多言語化したい](https://jyuch.hatenablog.com/entry/2019/05/05/215409)
